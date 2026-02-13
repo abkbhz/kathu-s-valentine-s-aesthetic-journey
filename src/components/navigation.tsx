@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
   { label: "Home", href: "#hero" },
+  { label: "Our Love", href: "#timeline" },
   { label: "Poems", href: "#poems" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "Our Story", href: "#timeline" },
+  { label: "Puzzle", href: "#puzzle" },
   { label: "Letter", href: "#letter" },
 ];
 
@@ -27,9 +27,8 @@ export default function Navigation() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.23, 1, 0.32, 1] }}
-        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
-          scrolled ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5" : ""
-        }`}
+        className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${scrolled ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5" : ""
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#hero" className="flex items-center gap-2">

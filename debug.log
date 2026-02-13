@@ -1,0 +1,462 @@
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/components/sections/footer'
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+   8 | import TimelineSection from "@/components/sections/timeline";
+>  9 | import FooterSection from "@/components/sections/footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+  12 |
+
+Import map: aliased to relative './src/components/sections/footer' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/gallery'
+  4 | import HeroSection from "@/components/sections/hero";
+  5 | import PoemsSection from "@/components/sections/poems";
+> 6 | import GallerySection from "@/components/sections/gallery";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+  9 | import FooterSection from "@/components/sections/footer";
+
+Import map: aliased to relative './src/components/sections/gallery' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/sections/hero'
+  2 |
+  3 | import { useRef } from "react";
+> 4 | import HeroSection from "@/components/sections/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PoemsSection from "@/components/sections/poems";
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+
+Import map: aliased to relative './src/components/sections/hero' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/sections/love-letter'
+   5 | import PoemsSection from "@/components/sections/poems";
+   6 | import GallerySection from "@/components/sections/gallery";
+>  7 | import LoveLetterSection from "@/components/sections/love-letter";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import TimelineSection from "@/components/sections/timeline";
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+
+Import map: aliased to relative './src/components/sections/love-letter' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/sections/poems'
+  3 | import { useRef } from "react";
+  4 | import HeroSection from "@/components/sections/hero";
+> 5 | import PoemsSection from "@/components/sections/poems";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+
+Import map: aliased to relative './src/components/sections/poems' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.293Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/sections/timeline'
+   6 | import GallerySection from "@/components/sections/gallery";
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+>  8 | import TimelineSection from "@/components/sections/timeline";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+
+Import map: aliased to relative './src/components/sections/timeline' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/components/sections/footer'
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+   8 | import TimelineSection from "@/components/sections/timeline";
+>  9 | import FooterSection from "@/components/sections/footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+  12 |
+
+Import map: aliased to relative './src/components/sections/footer' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:6:1
+Module not found: Can't resolve '@/components/sections/gallery'
+  4 | import HeroSection from "@/components/sections/hero";
+  5 | import PoemsSection from "@/components/sections/poems";
+> 6 | import GallerySection from "@/components/sections/gallery";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+  9 | import FooterSection from "@/components/sections/footer";
+
+Import map: aliased to relative './src/components/sections/gallery' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/sections/hero'
+  2 |
+  3 | import { useRef } from "react";
+> 4 | import HeroSection from "@/components/sections/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PoemsSection from "@/components/sections/poems";
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+
+Import map: aliased to relative './src/components/sections/hero' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/sections/love-letter'
+   5 | import PoemsSection from "@/components/sections/poems";
+   6 | import GallerySection from "@/components/sections/gallery";
+>  7 | import LoveLetterSection from "@/components/sections/love-letter";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import TimelineSection from "@/components/sections/timeline";
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+
+Import map: aliased to relative './src/components/sections/love-letter' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/sections/poems'
+  3 | import { useRef } from "react";
+  4 | import HeroSection from "@/components/sections/hero";
+> 5 | import PoemsSection from "@/components/sections/poems";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+
+Import map: aliased to relative './src/components/sections/poems' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/sections/timeline'
+   6 | import GallerySection from "@/components/sections/gallery";
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+>  8 | import TimelineSection from "@/components/sections/timeline";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+
+Import map: aliased to relative './src/components/sections/timeline' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:06:43.157Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/components/sections/footer'
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+   8 | import TimelineSection from "@/components/sections/timeline";
+>  9 | import FooterSection from "@/components/sections/footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+  12 |
+
+Import map: aliased to relative './src/components/sections/footer' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:4:1
+Module not found: Can't resolve '@/components/sections/hero'
+  2 |
+  3 | import { useRef } from "react";
+> 4 | import HeroSection from "@/components/sections/hero";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import PoemsSection from "@/components/sections/poems";
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+
+Import map: aliased to relative './src/components/sections/hero' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:7:1
+Module not found: Can't resolve '@/components/sections/love-letter'
+   5 | import PoemsSection from "@/components/sections/poems";
+   6 | import GallerySection from "@/components/sections/gallery";
+>  7 | import LoveLetterSection from "@/components/sections/love-letter";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import TimelineSection from "@/components/sections/timeline";
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+
+Import map: aliased to relative './src/components/sections/love-letter' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/sections/poems'
+  3 | import { useRef } from "react";
+  4 | import HeroSection from "@/components/sections/hero";
+> 5 | import PoemsSection from "@/components/sections/poems";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+
+Import map: aliased to relative './src/components/sections/poems' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/sections/timeline'
+   6 | import GallerySection from "@/components/sections/gallery";
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+>  8 | import TimelineSection from "@/components/sections/timeline";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+
+Import map: aliased to relative './src/components/sections/timeline' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:06:43.157Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/components/sections/footer'
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+   8 | import TimelineSection from "@/components/sections/timeline";
+>  9 | import FooterSection from "@/components/sections/footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+  12 |
+
+Import map: aliased to relative './src/components/sections/footer' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:5:1
+Module not found: Can't resolve '@/components/sections/poems'
+  3 | import { useRef } from "react";
+  4 | import HeroSection from "@/components/sections/hero";
+> 5 | import PoemsSection from "@/components/sections/poems";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import GallerySection from "@/components/sections/gallery";
+  7 | import LoveLetterSection from "@/components/sections/love-letter";
+  8 | import TimelineSection from "@/components/sections/timeline";
+
+Import map: aliased to relative './src/components/sections/poems' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:05:24.327Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:8:1
+Module not found: Can't resolve '@/components/sections/timeline'
+   6 | import GallerySection from "@/components/sections/gallery";
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+>  8 | import TimelineSection from "@/components/sections/timeline";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import FooterSection from "@/components/sections/footer";
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+
+Import map: aliased to relative './src/components/sections/timeline' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-13T18:06:43.157Z [console][error] ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx:9:1
+Module not found: Can't resolve '@/components/sections/footer'
+   7 | import LoveLetterSection from "@/components/sections/love-letter";
+   8 | import TimelineSection from "@/components/sections/timeline";
+>  9 | import FooterSection from "@/components/sections/footer";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import FloatingHearts from "@/components/floating-hearts";
+  11 | import Navigation from "@/components/navigation";
+  12 |
+
+Import map: aliased to relative './src/components/sections/footer' inside of [project]/orchids-projects/kathu-s-valentine-s-aesthetic-journey
+
+Import traces:
+  Client Component Browser:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component Browser]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Client Component SSR]
+    ./orchids-projects/kathu-s-valentine-s-aesthetic-journey/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
