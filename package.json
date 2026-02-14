@@ -2,11 +2,13 @@
   "name": "nextjs-new",
   "version": "0.1.0",
   "private": true,
+  "engines": { "node": ">=18" },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy": "vercel --prod"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
